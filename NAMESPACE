@@ -1,0 +1,14 @@
+exportPattern(".")
+
+# Import all packages listed as Imports or Depends
+importFrom("dplyr", "summarize", "group_by", "first", "%>%")
+importFrom("igraph", "neighborhood", "induced.subgraph")
+importFrom("raster", "crop", "extent", "setValues", "rasterize", "mask")
+importFrom("scales", "date_breaks")
+importFrom("sf", "st_bbox", "st_as_sf", "st_crs", "st_distance", "st_join", "st_drop_geometry", "st_cast", "st_within", "st_write")
+importFrom("spdep", "moran.test", "moran.plot")
+importFrom("splancs", "as.points", "inout")
+importFrom("survival", "survfit", "Surv")
+importFrom("stats", "acf", "qf", "qchisq",  "qnorm", "qlnorm", "quantile", "rlnorm", "rpois", "sd", "ts")
+importFrom("terra", "crop", "setValues", "rasterize", "mask")
+importFrom("utils", "packageDescription", "write.table", "head")

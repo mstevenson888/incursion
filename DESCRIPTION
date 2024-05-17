@@ -1,0 +1,14 @@
+Package: incursion
+Type: Package
+Title: Functions for the Analysis of Infectious Disease Outbreaks in Human and Animal Populations
+Version: 0.2-13
+Date: 2024-05-17
+Author: Mark Stevenson <mark.stevenson1@unimelb.edu.au>, Robert Sanson, Andrew McFadden, Simon Firestone and Matthew Edwards.
+Maintainer: Mark Stevenson <mark.stevenson1@unimelb.edu.au>
+Description: A collection of functions to assist in the analysis of infectious disease outbreaks in human and animal populations.
+Imports: dplyr, igraph, raster, scales, sf, spdep, splancs, terra, survival, utils
+Depends: R (>= 3.5.0)
+License: GPL (>= 2)
+URL: https://mvs.unimelb.edu.au/research/groups/veterinary-epidemiology-melbourne
+NeedsCompilation: no
+Packaged: 2024-05-17 10:58:57 UTC; mstev
