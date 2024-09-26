@@ -15,8 +15,6 @@ inc.about()
 }
 
 \details{
-The most recent version of the incursion package can be obtained from: \url{https://mvs.unimelb.edu.au/research/groups/veterinary-epidemiology-melbourne}.
-
 The following is a summary of the main functions and datasets in the \pkg{incursion} package. An alphabetical list of all functions and datasets is available by typing \code{library(help = incursion)}.
 
 For further information on any of these functions, type \code{help(name)} or \code{?name} where \code{name} is the name of the function or dataset.
@@ -32,10 +30,10 @@ A summary of the package functions, by theme, is as follows:
     \code{\link{inc.aucsf}}             \tab Data from a hypothetical outbreak of classical swine fever in Australia\cr
     \code{\link{inc.aufmd}}             \tab Data from a hypothetical outbreak of foot and mouth disease in Australia \cr
     \code{\link{inc.kofmd}}             \tab Actual and simulated outbreaks data from the 2002 outbreak of foot and mouth disease in South Korea\cr
+    \code{\link{inc.network}}           \tab Data from a hypothetical tracing exercise\cr 
     \code{\link{inc.nzfmd}}             \tab Data from a hypothetical outbreak of foot and mouth disease in New Zealand\cr
     \code{\link{inc.ukbse}}             \tab Counts of confirmed cases of bovine spongiform encephalopathy in the UK, 1992\cr
     \code{\link{inc.ukfmd}}             \tab Details of confirmed holding cases of foot and mouth disease in Cumbria, 2001\cr 
-    \code{\link{inc.network}}           \tab Data from a hypothetical tracing exercise\cr       
  }
 }
  
@@ -50,21 +48,22 @@ A summary of the package functions, by theme, is as follows:
 \section{3. Querying outbreak data}{
 
 \tabular{ll}{
-    \code{\link{inc.closestpoint}}  \tab Which point is closest to a given point location?\cr
-    \code{\link{inc.whichpoly}}     \tab In which polygon does a point lie? \cr
+    \code{\link{inc.closestpoint}}      \tab Which point is closest to a given point location?\cr
     \code{\link{inc.contacts}}          \tab Subset edgelist network data to identify contacts \cr
-    \code{\link{inc.trace}}             \tab Backward and forward trace windows \cr
+    \code{\link{inc.npsu}}              \tab Estimate the number of PSUs given the total number of SSUs in a population \cr
     \code{\link{inc.sna}}               \tab Manipulate network data in edgelist format \cr
+    \code{\link{inc.trace}}             \tab Backward and forward trace windows \cr
+    \code{\link{inc.whichpoly}}         \tab In which polygon does a point lie? \cr
  }
 }
 
 \section{4. Tools for generating reports}{
 
 \tabular{ll}{
+    \code{\link{inc.cropraster}}        \tab Crop a raster object to the boundaries of a polygon vector object\cr
     \code{\link{inc.mapkey}}            \tab Acronyms, HEX colours and shapes recommended for mapping outbreak data\cr
     \code{\link{inc.matfix}}            \tab Re-configures a \code{spatstat} \code{im} object for plotting using \code{ggplot2} \cr
     \code{\link{inc.mformat}}           \tab Format \code{ggplot2} axis labels \cr
-    \code{\link{inc.cropraster}}        \tab Crop a raster object to the boundaries of a polygon vector object\cr
  }
 }
 

@@ -1,0 +1,15 @@
+CHANGES IN incursion VERSION 0.2-15
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Function inc.cropraster modified (again) to use SpatRaster objects from package terra and RasterLayer objects from package raster.
+    [Suggested by Mark Stevenson]
+
+    o New function inc.npsu estimates the number of primary sampling units (e.g., herds, households) given an estimate of the total number of secondary sampling units in a population of interest.
+    [Suggested by Mark Stevenson]
+
+
+CHANGES IN incursion VERSION 0.2-14
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Function inc.cropraster modified to use only raster functions from the terra package.
+    [Suggested by Mark Stevenson]

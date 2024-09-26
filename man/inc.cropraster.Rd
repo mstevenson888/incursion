@@ -11,18 +11,17 @@ Crop a raster object to the boundaries of a polygon vector object.
 }
 
 \usage{
-inc.cropraster(raster, sf, snap = "out", type = "raster")
+inc.cropraster(x, sf, type = "raster")
 }
 
 \arguments{
-  \item{raster}{an object of class \code{raster} to be cropped.}
-  \item{sf}{an object of clas \code{sf}, the polygon scalar, the minimum lag to be evaluated.}
-  \item{snap}{character, either \code{near}, \code{in} or \code{out}.}
-  \item{type}{character, either \code{raster} or \code{data.frame}.}
+  \item{x}{an object of class \code{SpatRaster} from package \code{terra} or class \code{RasterLayer} from package \code{raster} to be cropped.}
+  \item{sf}{an object of class \code{sf} to be used as the mask for cropping.}
+  \item{type}{character, output type either \code{raster} or \code{data.frame}.}
 }
 
 \details{
-The function returns either a raster or data frame representing the cropped data. See the examples, below.
+This function returns either a raster or data frame representing the cropped data.
 }
 
 \value{
