@@ -1,0 +1,19 @@
+Package: incursion
+Version: 0.2-24
+Date: 2026-08-16
+Title: Functions for the Analysis of Infectious Disease Outbreaks in Human and Animal Populations
+Authors@R: c(person(given = "Mark", family = "Stevenson", role = c("aut", "cre"), email = "mark.stevenson1@unimelb.edu.au", comment = c(ORCID = "0000-0003-1890-9784")),
+   person(given = "Robert", family = "Sanson", role = "aut"),
+   person(given = "Andrew", family = "McFadden", role = "ctb"),
+   person(given = "Matthew", family = "Edwards", role = "ctb"),
+   person(given = "Katon", family = "Dwi Kurniawan", role = "ctb"),
+   person(given = "Sarai", family = "Silawan", role = "ctb"),
+   person(given = "Hanny", family = "Oey", role = "ctb"),
+   person(given = "Kona", family = "Adhikary", role = "ctb"))
+Maintainer: Mark Stevenson <mark.stevenson1@unimelb.edu.au>
+Description: A collection of functions to assist in the analysis of infectious disease outbreaks in human and animal populations.
+Imports: dplyr, geosphere, igraph, mc2d, methods, raster, scales, sf, spdep, splancs, terra, survival, googleway, nominatimlite, utils
+Depends: R (>= 3.5.0)
+License: GPL (>= 2)
+NeedsCompilation: no
+Packaged: 2026-08-16 12:00 UTC

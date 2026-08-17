@@ -1,0 +1,57 @@
+CHANGES IN incursion VERSION 0.2-24
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Documentation tidy up.
+    [Suggested by Mark Stevenson]
+    
+
+CHANGES IN incursion VERSION 0.2-23
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Function inc.fixanames continues when geocode can't find a match.
+    [Suggested by Mark Stevenson]
+
+
+CHANGES IN incursion VERSION 0.2-22
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Further improvements to function inc.fixanames.
+    [Suggested by Mark Stevenson, Caitlin Pfeiffer, Anke Wiethoelter, Sarai Silaban, Hanny Oey and Kona Adhikary]
+    
+
+CHANGES IN incursion VERSION 0.2-18
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o New function inc.fixanames corrects area names using a reference map standard.
+    [Suggested by Mark Stevenson and Katon Dwi Kurniawan]
+
+
+CHANGES IN incursion VERSION 0.2-17
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o New function inc.breaks provides breaks and labels when plotting a choropleth map of risk estimates on a log2 scale.
+    [Suggested by Mark Stevenson]
+    
+
+CHANGES IN incursion VERSION 0.2-16
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o New function inc.stkml creates a space-time KML file from an igraph object.
+    [Suggested by Mark Stevenson]
+
+
+CHANGES IN incursion VERSION 0.2-15
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Function inc.cropraster modified (again) to use SpatRaster objects from package terra and RasterLayer objects from package raster.
+    [Suggested by Mark Stevenson]
+
+    o New function inc.npsu estimates the number of primary sampling units (e.g., herds, households) given an estimate of the total number of secondary sampling units in a population of interest.
+    [Suggested by Mark Stevenson]
+
+
+CHANGES IN incursion VERSION 0.2-14
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Function inc.cropraster modified to use only raster functions from the terra package.
+    [Suggested by Mark Stevenson]
