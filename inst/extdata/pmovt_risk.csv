@@ -1,0 +1,48 @@
+crisk,src,des,decision
+high,at risk place from high risk zone,into infected zone,-
+high,at risk place from high risk zone,out of infected zone,prohibited
+high,at risk place from high risk zone,within infected zone,prohibited
+high,other place from infected zone,into infected zone,-
+high,other place from infected zone,out of infected zone,prohibited
+high,other place from infected zone,within infected zone,prohibited
+high,outside infected zone,into infected zone,permit conditions
+high,outside infected zone,out of infected zone,-
+high,restricted place,into infected zone,prohibited
+high,restricted place,out of infected zone,prohibited
+high,restricted place,within infected zone,prohibited
+low,at risk place from high risk zone,into infected zone,-
+low,at risk place from high risk zone,out of infected zone,permitted
+low,at risk place from high risk zone,within infected zone,permitted
+low,other place from infected zone,into infected zone,-
+low,other place from infected zone,out of infected zone,not restricted
+low,other place from infected zone,within infected zone,not restricted
+low,outside infected zone,into infected zone,not restricted
+low,outside infected zone,out of infected zone,-
+low,outside infected zone,within infected zone,-
+low,restricted place,into infected zone,permit conditions
+low,restricted place,out of infected zone,permit conditions
+low,restricted place,within infected zone,permit conditions
+medium,at risk place from high risk zone,into infected zone,-
+medium,at risk place from high risk zone,out of infected zone,permit conditions
+medium,at risk place from high risk zone,within infected zone,permit conditions
+medium,other place from infected zone,into infected zone,-
+medium,other place from infected zone,out of infected zone,permit conditions
+medium,other place from infected zone,within infected zone,permitted
+medium,outside infected zone,into infected zone,not restricted
+medium,outside infected zone,out of infected zone,-
+medium,outside infected zone,within infected zone,-
+medium,restricted place,into infected zone,prohibited
+medium,restricted place,out of infected zone,prohibited
+medium,restricted place,within infected zone,prohibited
+negligible,at risk place from high risk zone,into infected zone,-
+negligible,at risk place from high risk zone,out of infected zone,not restricted
+negligible,at risk place from high risk zone,within infected zone,not restricted
+negligible,other place from infected zone,into infected zone,-
+negligible,other place from infected zone,out of infected zone,not restricted
+negligible,other place from infected zone,within infected zone,not restricted
+negligible,outside infected zone,into infected zone,not restricted
+negligible,outside infected zone,out of infected zone,-
+negligible,outside infected zone,within infected zone,-
+negligible,restricted place,into infected zone,permitted
+negligible,restricted place,out of infected zone,permitted
+negligible,restricted place,within infected zone,permitted
